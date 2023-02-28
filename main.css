@@ -18,6 +18,11 @@ body {
 	background-attachment: fixed;
 	background-color: #000;
 	background-image: url("images/stars.jpg");
+	background-image: image-set(
+		url("images/stars.avif") type("image/avif"),
+		url("images/stars.webp") type("image/webp"),
+		url("images/stars.jpg") type("image/jpeg")
+	);
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
