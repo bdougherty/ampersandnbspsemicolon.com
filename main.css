@@ -19,6 +19,7 @@ body {
 	background-color: #000;
 	background-image: url("images/stars.jpg");
 	background-image: image-set(
+		url("images/stars.jxl") type("image/jxl"),
 		url("images/stars.avif") type("image/avif"),
 		url("images/stars.webp") type("image/webp"),
 		url("images/stars.jpg") type("image/jpeg")
